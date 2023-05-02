@@ -1,4 +1,4 @@
-# Toolchain for Writing General Game Players
+# Toolchain for writing General Game Players
 
 This simple script allows you to build
 and organize sophisticated general game playing (GGP)
@@ -58,3 +58,6 @@ Most editors will allow you to set up a custom build
 command. In vscode, for example, you can create a `tasks.json`
 file in the project directory and set this to be the default
 build task as described [here](https://code.visualstudio.com/docs/editor/tasks).
+
+If you want more sophisticated tooling, such as automatic dependency resolution
+or compiling from e.g. Typescript, use `webpack`.
