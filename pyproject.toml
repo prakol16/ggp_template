@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ggp_template"
+version = "0.0.4"
+authors = [
+  { name="Praneeth Kolichala", email="praneeth.kolichala@gmail.com" },
+]
+description = "Creates and compiles GGP js/html projects"
+readme = "README.md"
+requires-python = ">=3.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.package-data]
+"ggp.templates" = ["*.html", "*.js"]
+
+[project.urls]
+"Homepage" = "https://github.com/prakol16/ggp_template"
+"Bug Tracker" = "https://github.com/prakol16/ggp_template/issues"

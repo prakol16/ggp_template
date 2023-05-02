@@ -13,6 +13,13 @@ and copying and pasting. It also allows you to manage slightly larger projects
 by generating an `html` file from a template and (potentially multiple)
 given javascript files.
 
+## Setup
+
+Just clone the repository and optionally add it to your `PYTHONPATH`.
+This has been tested on Python 3.10.5 (no dependencies), but it is
+simple enough that it should work with essentially any version
+of Python 3
+
 ## Usage
 
 To create a new player from the sample template, run
