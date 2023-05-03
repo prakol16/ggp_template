@@ -50,7 +50,7 @@ The `make` subcommand takes the following options:
   - `ident` The identifier for your player
   - `strategy` The strategy name that is displayed on the page
   - `title` The title for the page (defaults to the strategy and identifier)
-  - `out` The html file to write to (defaults to stdout)
+  - `out` The html file to write to (defaults to `out.html`)
 
 While javascript files are converted to `data:text,` (hence URI encoded),
 none of the other parameters are escaped. Therefore,
