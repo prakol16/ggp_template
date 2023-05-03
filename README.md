@@ -26,7 +26,7 @@ pip install ggp-template
 To create a new player from the sample template, run
 
 ```
-python -m ggp.new new myplayer.js
+python -m ggp.new myplayer.js
 ```
 
 To build an HTML file from a player, run
