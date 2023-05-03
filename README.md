@@ -40,7 +40,7 @@ arguments (no dependency resolution is done; the scripts are added
 to the HTML file in the order they are passed in):
 
 ```
-python ggp.make lib.js myplayer.js --ident=your_identifier
+python -m ggp.make lib.js myplayer.js --ident=your_identifier
 ```
 
 ## Options
