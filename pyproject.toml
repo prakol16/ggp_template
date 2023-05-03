@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ggp_template"
-version = "0.0.4"
+version = "0.1.1"
 authors = [
   { name="Praneeth Kolichala", email="praneeth.kolichala@gmail.com" },
 ]

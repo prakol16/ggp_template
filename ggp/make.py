@@ -32,7 +32,7 @@ if __name__ == "__main__":
                     description='Automatically generate an HTML for your player given the javascript source')
     parser.add_argument('filename', nargs="+", type=FileType('r'))
     parser.add_argument('--template', help='The template HTML file to use (defaults to sample.html from '
-                                               'http://ggp.stanford.edu/gamemaster/gameplayers/sample.html)')
+                                           'http://ggp.stanford.edu/gamemaster/gameplayers/sample.html)')
     parser.add_argument('--ident', help='The identifier for your player', default='template')
     parser.add_argument('--strategy', help='The strategy name that is displayed on the page', default='secret')
     parser.add_argument('--title', help='The title for the page (defaults to the strategy and identifier)')
